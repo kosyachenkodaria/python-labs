@@ -1,6 +1,3 @@
-from xml.etree.ElementTree import C14NWriterTarget
-
-
 a = input ()
 b = input ()
 c = input ()
