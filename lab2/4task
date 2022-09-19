@@ -1,0 +1,10 @@
+import numbers
+
+
+a = input ()
+b = input ()
+c = input ()
+numbers = [a, b, c ]
+q = set (numbers)
+k=len (set (numbers))
+print ("Количество уникальных чисел", k)
