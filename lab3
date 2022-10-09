@@ -1,0 +1,38 @@
+def sum_list():
+    list = []
+    for i in range(10):
+        numbers = float(input("введите число: "))
+        list.append(numbers)
+
+    return sum(list)
+
+print(f"сумма чисел = {sum_list()}") 
+
+
+
+def zero():
+    list = []
+    for i in range(10):
+        numbers = float(input("введите число: "))
+        list.append(numbers)
+    return len([i for i in list if i == 0])
+
+print(f"количество нулей = {zero()}")
+
+
+
+k = int(input("введите натуральное число: "))
+for i in range(1,k+1):
+    for m in range(1,i+1):
+        print(m,end='')
+    print()
+    
+    
+    
+    k = int(input("введите натуральное число: "))
+for i in range(1,k+1):
+    for m in range(1,i+1):
+        print(m,end='') 
+    for c in range(i-1,0,-1):
+        print(c,end='')
+    print()
