@@ -1,1 +1,9 @@
+def sum_list():
+  list = []
+  for i in range(10):
+    list_num = int(input("введите число "))
+    list.append(list_num)
+  
+  return sum(list)
 
+print(f"сумма чисел = {sum_list()}")  
